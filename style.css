@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 25px;
+    color: #fff;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #6559c4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    h1{
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+}
+
+div#main{
+    width: 80%;
+    text-align: center;
+}
+
+div#content{
+    width: 60%;
+    border: 1px solid #fff;
+    margin: 50px auto;
+}
+
+div#text{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius:5px;
+    margin:35px 35px 50px 35px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    div#text{
+        margin:35px 15px 35px 15px;
+    }
+}
+
+p#ip-content{
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    p#ip-content{
+        font-size: 1rem;
+    }
+}
+
+button{
+    font-family: inherit;
+    font-size: 0.8rem;
+    padding: 15px 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #ffbf00;
+}
+
+button:hover{
+    background: #000;
+    color: #ffbf00;
+}
+
+@media only screen and (max-width: 600px) {
+    button{
+        padding: 15px 25px;
+        font-size: 0.6rem;
+    }
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    line-height: 60px;
+}
+
+a:hover{
+    color:#ffbf00;
+    font-size: 1.1rem;
+}
